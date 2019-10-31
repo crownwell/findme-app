@@ -79,7 +79,7 @@ class OrderItemFull extends StatelessWidget {
                                     width: 140,
                                   ),
                                   Text(
-                                    'DELIVERED',
+                                    'AVAILABLE',
                                     style: TextStyle(
                                       fontSize: 11.5,
                                       backgroundColor: Colors.green,

@@ -70,14 +70,14 @@ class OrderItem extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget>[
                               Text(
-                                'Order Status:',
+                                'Status:',
                                 style: TextStyle(fontSize: 11.5),
                               ),
                               VerticalDivider(
                                 width: 10,
                               ),
                               Text(
-                                'DELIVERED',
+                                'AVAILABLE',
                                 style: TextStyle(
                                   fontSize: 11.5,
                                   backgroundColor: Colors.green,

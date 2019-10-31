@@ -1,3 +1,4 @@
+import 'package:findme/screens/user/user_contacts.dart';
 import 'package:flutter/material.dart';
 
 import './screens/landing_page.dart';
@@ -18,6 +19,7 @@ const SignupUserRoute = '/signup/user';
 const UserDashboardRoute = '/user/dashboard';
 const UserNewDeliveryRoute = '/user/new-delivery';
 const UserOrderHistoryRoute = '/user/order-history';
+const UserContactsRoute = '/user/contacts';
 
 const MerchantsDashboardRoute = '/merchants/dashboard';
 const MerchantDetailRoute = '/merchants/detail';
@@ -66,6 +68,9 @@ class App extends StatelessWidget {
           break;
         case UserOrderHistoryRoute:
           screen = OrderHistory();
+          break;
+        case UserContactsRoute:
+          screen = UserContacts();
           break;
         default:
           return null;

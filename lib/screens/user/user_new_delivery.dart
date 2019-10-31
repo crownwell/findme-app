@@ -11,7 +11,7 @@ class NewDelivery extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "DVLMP",
+            "FindME",
             style: Theme.of(context).textTheme.title,
           ),
           centerTitle: true,

@@ -16,7 +16,7 @@ class RecentOrders extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                'Recent Orders',
+                'Recent Entries',
                 style: TextStyle(
                   fontSize: 23.0,
                   fontWeight: FontWeight.w600,

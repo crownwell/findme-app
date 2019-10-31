@@ -1,9 +1,9 @@
+import 'package:findme/screens/components/contact_item.dart';
 import 'package:flutter/material.dart';
 
 import './../components/user_drawer.dart';
-import './../components/order_item_full.dart';
 
-class OrderHistory extends StatelessWidget {
+class UserContacts extends StatelessWidget {
   final List<int> _numbers = [1, 2, 3, 4, 5, 6];
 
   @override
@@ -68,8 +68,7 @@ class OrderHistory extends StatelessWidget {
                   child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children:
-                          _numbers.map((num) => OrderItemFull()).toList()),
+                      children: _numbers.map((num) => ContactItem()).toList()),
                 ),
               ],
             ),

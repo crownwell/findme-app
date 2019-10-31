@@ -84,7 +84,7 @@ class UserDashboard extends StatelessWidget {
                       borderRadius: new BorderRadius.circular(5.0),
                     ),
                     label: Text(
-                      'Book a new delivery',
+                      'Explore services and products',
                       style: TextStyle(
                         color: Colors.white,
                       ),

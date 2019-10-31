@@ -72,7 +72,7 @@ class OrderItemFull extends StatelessWidget {
                                     MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Text(
-                                    'Order Status:',
+                                    'Status:',
                                     style: TextStyle(fontSize: 11.5),
                                   ),
                                   VerticalDivider(

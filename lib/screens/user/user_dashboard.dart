@@ -51,10 +51,15 @@ class UserDashboard extends StatelessWidget {
             },
           ),
           actions: <Widget>[
-            Container(
-              padding: EdgeInsets.only(right: 10),
-              child: Icon(Icons.notifications),
-            ),
+            GestureDetector(
+              child: Container(
+                padding: EdgeInsets.only(right: 10),
+                child: Icon(Icons.notifications),
+              ),
+              onTap: () {
+                Navigator.pushNamed(context, '/user/notifications');
+              },
+            )
           ],
         ),
       ),

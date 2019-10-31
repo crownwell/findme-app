@@ -24,7 +24,9 @@ class FavouriteContacts extends StatelessWidget {
               ),
               FlatButton(
                 color: Theme.of(context).primaryColor,
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/user/contacts/new');
+                },
                 child: Text(
                   'Add New',
                   style: TextStyle(color: Colors.white),

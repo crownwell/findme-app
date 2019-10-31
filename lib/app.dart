@@ -1,4 +1,7 @@
+import 'package:findme/screens/merchant_view.dart';
+import 'package:findme/screens/user/user_add_contact.dart';
 import 'package:findme/screens/user/user_contacts.dart';
+import 'package:findme/screens/user/user_notifications.dart';
 import 'package:findme/screens/user/user_statistics.dart';
 import 'package:findme/screens/user/user_wallet.dart';
 import 'package:flutter/material.dart';
@@ -22,8 +25,11 @@ const UserDashboardRoute = '/user/dashboard';
 const UserNewDeliveryRoute = '/user/new-delivery';
 const UserOrderHistoryRoute = '/user/order-history';
 const UserContactsRoute = '/user/contacts';
+const UserAddContactsRoute = '/user/contacts/new';
 const UserStatisticsRoute = '/user/statistics';
 const UserWalletRoute = '/user/wallet';
+const UserNotificationsRoute = '/user/notifications';
+const UserMerchantViewRoute = 'user/merchant/view';
 
 const MerchantsDashboardRoute = '/merchants/dashboard';
 const MerchantDetailRoute = '/merchants/detail';
@@ -76,11 +82,20 @@ class App extends StatelessWidget {
         case UserContactsRoute:
           screen = UserContacts();
           break;
+        case UserAddContactsRoute:
+          screen = AddContactScreen();
+          break;
         case UserStatisticsRoute:
           screen = UserStatistics();
           break;
         case UserWalletRoute:
           screen = UserWallet();
+          break;
+        case UserNotificationsRoute:
+          screen = UserNotifications();
+          break;
+        case UserMerchantViewRoute:
+          screen = MerchantView();
           break;
         default:
           return null;

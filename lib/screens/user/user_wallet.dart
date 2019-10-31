@@ -5,6 +5,8 @@ class UserWallet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Text('USer Wallet Page');
+    return Scaffold(
+      body: Text('User Wallet Page'),
+    );
   }
 }

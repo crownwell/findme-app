@@ -57,7 +57,7 @@ class NewDelivery extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[
                     Text(
-                      'New Delivery',
+                      'New Request',
                       style: TextStyle(
                         fontSize: 23.0,
                         fontWeight: FontWeight.w600,
